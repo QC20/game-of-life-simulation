@@ -1,3 +1,4 @@
+# Decide the maximum number of cells generated
 let m_maxCells = 300;
 
 let m_velDamping = 0.9;
