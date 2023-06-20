@@ -2,6 +2,9 @@
 
 Life's Journey is a small interactive game inspired by the original Game of Life. Step into a mesmerizing world where you can shape and witness the unfolding of life itself. Immerse yourself in the captivating gameplay and experience the beauty of emergent patterns.
 
+https://github.com/QC20/game-of-life-simulation/assets/36644388/6904d647-263e-4239-9c36-89e723e5b5fb
+
+
 ## Features
 
 - Engage with a dynamic, evolving world through interactive gameplay.
