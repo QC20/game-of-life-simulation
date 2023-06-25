@@ -1,4 +1,4 @@
-# Decide the maximum number of cells generated
+// Decide the maximum number of cells generated
 let m_maxCells = 300;
 
 let m_velDamping = 0.9;
@@ -83,7 +83,7 @@ class Cell {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(600, 600);
   frameRate(60);
 
   for (let i = 0; i < m_startCells; i++) {
@@ -217,7 +217,7 @@ function getColor(index) {
     case 5:
       return color(0, 255, 255);
     case 6:
-      return color(255, 255, 255);
+      return color(0, 0, 0);
     case 7:
       return color(255, 128, 0);
     case 8:
