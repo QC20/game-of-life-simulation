@@ -5,7 +5,7 @@ You can access the game via p5.js's web editor.
 https://github.com/QC20/game-of-life-simulation/assets/36644388/6904d647-263e-4239-9c36-89e723e5b5fb
 
 
-## Features
+## Features and Functionalities
 - Engage with a dynamic, evolving world through interactive gameplay.
 - Experience the magic of cellular automata and emergent behaviors.
 - Witness mesmerizing patterns and explore the infinite possibilities of life.
