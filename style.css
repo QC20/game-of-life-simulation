@@ -1,9 +1,8 @@
-/* CSS styles for the main container */
-main {
-  display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
-  height: 100vh; /* Make the main container take up the full height of the viewport */
-  margin: 0; /* Remove any default margin */
-}
-
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  canvas {
+    display: block;
+  }
+  
