@@ -7,16 +7,3 @@ main {
   margin: 0; /* Remove any default margin */
 }
 
-/* CSS styles for the canvas container */
-#canvas-container {
-  position: relative; /* Make the container position relative */
-  width: 800px; /* Set the width of the canvas */
-  height: 600px; /* Set the height of the canvas */
-}
-
-canvas {
-  position: absolute; /* Position the canvas absolutely */
-  top: 0; /* Align canvas to the top */
-  left: 0; /* Align canvas to the left */
-  border: 2px solid black; /* Add a 2px solid black border */
-}
