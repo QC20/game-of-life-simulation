@@ -83,9 +83,8 @@ class Cell {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(600, 600);
   frameRate(60);
-  
 
   for (let i = 0; i < m_startCells; i++) {
     cells[i] = new Cell(createVector(random(width + 1) - width / 2, random(height + 1) - height / 4));
