@@ -81,10 +81,19 @@ class Cell {
     ellipse(this.pos.x, this.pos.y, this.r); // Changed circle to ellipse
   }
 }
+let canvas;
+let canvasContainer;
 
 function setup() {
   createCanvas(800, 600);
   frameRate(60);
+
+  canvasContainer = document.getElementById('canvas-container');
+  let canvasWidth = canvasContainer.offsetWidth;
+  let canvasHeight = canvasContainer.offsetHeight;
+  canvas = createCanvas(canvasWidth, canvasHeight);
+  canvas.parent('canvas-container');
+  
 
   for (let i = 0; i < m_startCells; i++) {
     cells[i] = new Cell(createVector(random(width + 1) - width / 2, random(height + 1) - height / 4));
