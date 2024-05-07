@@ -3,8 +3,9 @@ Life's Journey is a small interactive game inspired by the original Game of Life
 You can access the game via p5.js's web editor.
 
 <p align="center">
-  <img src="img\life's-journey.mp4" alt="Visualization of Life's Journey">
+  <video src="img/life's-journey.mp4" alt="Visualization of Life's Journey" controls></video>
 </p>
+
 
 
 ## Features and Functionalities
