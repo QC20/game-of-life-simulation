@@ -4,10 +4,12 @@ main {
   justify-content: center; /* Center the content horizontally */
   align-items: center; /* Center the content vertically */
   height: 100vh; /* Make the main container take up the full height of the viewport */
+  margin: 0; /* Remove any default margin */
 }
 
 /* CSS styles for the canvas container */
 #canvas-container {
   border: 2px solid black; /* 2 pixel solid black border */
-  padding: 2px; /* Add 2 pixels of padding */
+  padding: 0; /* Remove any padding */
+  margin: 0; /* Remove any margin */
 }
