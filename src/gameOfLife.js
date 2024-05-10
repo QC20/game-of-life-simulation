@@ -1,9 +1,9 @@
 // Decide the maximum number of cells generated
-let m_maxCells = 3000;
+let m_maxCells = 400;
 
 let m_velDamping = 0.9;
 let m_forDamping = 0.5;
-let m_startCells = 3000;
+let m_startCells = 400;
 let m_timeScale = 0.01;
 let m_minDistance = 40;
 let m_noise = 1.1;
@@ -83,8 +83,8 @@ class Cell {
 }
 
 function setup() {
-  createCanvas(200, 200);
-  frameRate(20);
+  createCanvas(400, 800);
+  frameRate(60);
 
   for (let i = 0; i < m_startCells; i++) {
     cells[i] = new Cell(createVector(random(width + 1) - width / 2, random(height + 1) - height / 4));
