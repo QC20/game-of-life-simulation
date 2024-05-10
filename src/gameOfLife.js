@@ -83,7 +83,7 @@ class Cell {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(400, 800);
   frameRate(60);
 
   for (let i = 0; i < m_startCells; i++) {
